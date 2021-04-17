@@ -1,0 +1,27 @@
+<launch>
+  <node pkg="control" type="control_node" name="control_node" output="screen">
+
+      <!-- <remap from="~waypoints" to="/waypoint_generator/waypoints"/>
+      <remap from="~odom"      to="/msckf_vio/odometry"/>
+      <remap from="~joy"      to="/djiros/rc"/-->
+
+  </node>
+
+  <node pkg="trajectory_optimizer" name="trajectory_optimizer_node" type="trajectory_optimizer_node" output="screen">        
+
+      <param name="/trajectory/max_vel"       value="5.0"  />
+      <param name="/trajectory/max_acc"       value="2.0"  />
+      <param name="/trajectory/order"         value="4"    />
+  </node>
+
+  <node pkg="waypoint_generator" type="waypoint_generator_node" name="waypoint_generator_node" >
+
+      <!-- <remap from="~waypoints" to="/waypoint_generator/waypoints"/>
+      <remap from="~odom"      to="/msckf_vio/odometry"/>
+      <remap from="~joy"      to="/djiros/rc"/-->
+
+  </node>
+
+
+
+</launch>

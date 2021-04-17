@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/ck1201/workspace/AMOV/px4_command/devel/include/**",
+        "/home/ck1201/workspace/AMOV/Prometheus/devel/include/**",
+        "/home/ck1201/workspace/FASTLAB/MotionPlanning/devel/include/**",
+        "/home/ck1201/workspace/FASTLAB/ego-planner-swarm/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/ck1201/workspace/AMOV/Prometheus/Modules/planning/FastPlanner/bspline_opt/include/**",
+        "/home/ck1201/workspace/FASTLAB/ego-planner-swarm/src/planner/drone_detect/include/**",
+        "/home/ck1201/workspace/FASTLAB/ego-planner-swarm/src/planner/plan_manage/include/**",
+        "/home/ck1201/workspace/FASTLAB/ego-planner-swarm/src/uav_simulator/mockamap/include/**",
+        "/home/ck1201/workspace/FASTLAB/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server/include/**",
+        "/home/ck1201/workspace/AMOV/Prometheus/Modules/planning/FastPlanner/path_searching/include/**",
+        "/home/ck1201/workspace/AMOV/Prometheus/Modules/planning/FastPlanner/plan_env/include/**",
+        "/home/ck1201/workspace/FASTLAB/ego-planner-swarm/src/uav_simulator/Utils/pose_utils/include/**",
+        "/home/ck1201/workspace/AMOV/Prometheus/Modules/control/include/**",
+        "/home/ck1201/workspace/AMOV/Prometheus/Simulator/gazebo_simulator/include/**",
+        "/home/ck1201/workspace/AMOV/Prometheus/Modules/planning/global_planning/include/**",
+        "/home/ck1201/workspace/AMOV/Prometheus/Modules/planning/hybrid_astar/include/**",
+        "/home/ck1201/workspace/AMOV/Prometheus/Modules/planning/local_planner/include/**",
+        "/home/ck1201/workspace/AMOV/Prometheus/Modules/mission/include/**",
+        "/home/ck1201/workspace/AMOV/Prometheus/Modules/planning/FastPlanner/plan_manage/include/**",
+        "/home/ck1201/workspace/AMOV/Prometheus/Modules/planning/Utils/pose_utils/include/**",
+        "/home/ck1201/workspace/AMOV/Prometheus/Modules/slam/include/**",
+        "/home/ck1201/workspace/AMOV/Prometheus/Modules/ground_station/include/**",
+        "/home/ck1201/workspace/AMOV/Prometheus/Modules/planning/swarm_planning/include/**",
+        "/home/ck1201/workspace/AMOV/px4_command/src/include/**",
+        "/home/ck1201/workspace/FASTLAB/MotionPlanning/src/quadrotor_msgs/include/**",
+        "/home/ck1201/workspace/FASTLAB/ego-planner-swarm/src/uav_simulator/so3_control/include/**",
+        "/home/ck1201/workspace/FASTLAB/ego-planner-swarm/src/uav_simulator/so3_quadrotor_simulator/include/**",
+        "/home/ck1201/workspace/AMOV/Prometheus/Modules/planning/FastPlanner/traj_utils/include/**",
+        "/home/ck1201/workspace/XDU/AFS/src/trajectory_optimizer/include/**",
+        "/home/ck1201/workspace/FASTLAB/ego-planner-swarm/src/uav_simulator/Utils/uav_utils/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
